@@ -4,7 +4,17 @@ body{
 
 h1{
     text-align: center;
+    font-family: 'Open sans', sans-serif;
+    font-size:3em;
 }
+
+#calculator-brand{
+    text-align: right;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Neuton', serif;
+}
+
 #keypad{
  width:250px;
  margin-left: auto;
@@ -22,7 +32,7 @@ table{
     margin-bottom:10px;
     height: 50px;
     width: 235px;
-    front-size:3cm;
+    font-size:3em;
     font-family: 'VT323', monospace;
     overflow: hidden;
     white-space: nowrap;
@@ -34,7 +44,7 @@ input[type=button]{
     background-color: red;
     height: 50px;
     width:50px;
-    front-size: 1cm;
+    font-size: 2em;
     border-radius:10px;
     margin: 3px;
 }
